@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>BOOK NOW</title>
+    <meta name="generator" content="Serif WebPlus X8">
+    <meta name="viewport" content="width=960">
+    <link rel="stylesheet" type="text/css" href="wpscripts/wpstyles.css">
+    <style type="text/css">
+      .OBJ-1,.OBJ-1:link,.OBJ-1:visited { background-image:url('wpimages/wp262ae1f2_06.png');background-repeat:no-repeat;background-position:0px 0px;text-decoration:none;display:block;position:absolute; }
+      .OBJ-1:hover { background-position:0px -90px; }
+      .OBJ-1:active,a:link.OBJ-1.Activated,a:link.OBJ-1.Down,a:visited.OBJ-1.Activated,a:visited.OBJ-1.Down,.OBJ-1.Activated,.OBJ-1.Down { background-position:0px -45px; }
+      .OBJ-1.Disabled,a:link.OBJ-1.Disabled,a:visited.OBJ-1.Disabled,a:hover.OBJ-1.Disabled,a:active.OBJ-1.Disabled { background-position:0px -135px; }
+      .OBJ-1:focus { outline-style:none; }
+      button.OBJ-1 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
+      button.OBJ-1:disabled { pointer-events:none; }
+      .OBJ-1.Inline { display:inline-block;position:relative;line-height:normal; }
+      .OBJ-1 span,.OBJ-1:link span,.OBJ-1:visited span { color:#ffffff;font-family:"Trebuchet MS",sans-serif;font-weight:normal;text-decoration:none;text-align:center;text-transform:none;font-style:normal;left:1px;top:14px;width:95px;height:14px;line-height:14px;font-size:10px;display:block;position:absolute;cursor:pointer; }
+      .OBJ-2 { line-height:45px; }
+      .P-1 { text-align:center;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:24.0px;vertical-align:0; }
+      .C-1 { line-height:29.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:24.0px;vertical-align:0; }
+      .C-2 { line-height:18.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .OBJ-3 { margin:0;background:transparent url('wpimages/wpfddf39aa.png') no-repeat left top; }
+      .P-2 { text-align:center;line-height:1px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:700;color:#b0de00;background-color:transparent;font-variant:normal;font-size:18.0px;vertical-align:0; }
+      .C-3 { line-height:22.00px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:700;color:#b0de00;background-color:transparent;text-decoration:none;font-variant:normal;font-size:18.0px;vertical-align:0; }
+      .C-4 { line-height:19.00px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:700;color:#c1d98c;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .OBJ-4 { border:1px solid #515151;border-radius:2px / 2px;background-color:#ffffff;background:#ffffff;font-family:Tahoma;font-size:13px;color:#000000;text-decoration:none;font-style:normal;font-variant:normal;font-weight:Normal;text-align:left; }
+      .OBJ-5 { border:1px solid #515151;border-radius:2px / 2px;background-color:#c8c8c8;background:#c8c8c8;font-family:Tahoma;font-size:13px;color:#000000;text-decoration:none;font-style:normal;font-variant:normal;font-weight:Normal;text-align:center; }
+      .C-5 { line-height:25.00px;font-family:"Verdana", sans-serif;font-style:italic;font-weight:700;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:21.3px;vertical-align:0; }
+      .C-6 { line-height:25.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:21.3px;vertical-align:0; }
+      .C-7 { line-height:32.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:26.7px;vertical-align:0; }
+    </style>
+    <script type="text/javascript" src="wpscripts/jquery.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.marquee.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="wpscripts/jqueryui.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.stylesheet.js"></script>
+    <script type="text/javascript" src="wpscripts/datepicker.i18n.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.datepicker.style.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $("#form_21").validate({ onkeyup: false, showErrors: function(errorMap, errorList) { if (errorList.length) alert(errorList[0].message); }, onclick: false, rules: { 'edit_3': { required: true, number: true }  }, onfocusout: false, messages: { 'edit_3': { required: "Please enter a number", number: "Please enter a number" }  } });
+      $("#marq_1_0").marquee();
+      $("a.ActiveButton").bind({ mousedown:function(){if ( $(this).attr('disabled') === undefined ) $(this).addClass('Activated');}, mouseleave:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}, mouseup:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}});
+      });
+    </script>
+    <link rel="stylesheet" type="text/css" href="wpscripts/datepicker.css">
+  </head>
+  <body style="height:1000px;background:#cdcdcd;">
+    <div id="divMain" style="background:transparent;margin-left:auto;margin-right:auto;position:relative;width:960px;height:1000px;">
+      <div style="background-color:#000000;position:absolute;left:0px;top:5px;width:960px;height:58px;">
+        <div style="font-family:Arial;font-size:25px;color:#ffffff;overflow:hidden;position:absolute;top:14px;height:30px;line-height:30px;">
+          <div id="marq_1_0" data-properties="{&quot;behaviour&quot;:&quot;scroll&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;scrollamount&quot;:&quot;1.500000&quot;}" style="position:absolute;left:0px;top:0px;width:960px;height:30px;line-height:30px;">WELCOME&nbsp;TO&nbsp;TICKEL&nbsp;HOTEL</div>
+        </div>
+      </div>
+      <img alt="TICKEL HOTEL" src="wpimages/wp595250c4_06.png" style="position:absolute;left:233px;top:68px;width:466px;height:78px;">
+      <img alt="Your Luxe Escape in the Heart of Java" src="wpimages/wp03617a3c_06.png" style="position:absolute;left:209px;top:143px;width:519px;height:32px;">
+      <div style="position:absolute;left:47px;top:184px;width:814px;height:79px;">
+        <a href="index.html" id="nav_1_B1" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:64px;top:5px;width:98px;height:45px;">
+          <span>Home</span>
+        </a>
+        <a href="services.html" id="nav_1_B2" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:162px;top:5px;width:98px;height:45px;">
+          <span>SERVICES</span>
+        </a>
+        <a href="about-us.html" id="nav_1_B3" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:260px;top:5px;width:98px;height:45px;">
+          <span>ABOUT&nbsp;US</span>
+        </a>
+        <a href="galleries.html" id="nav_1_B4" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:358px;top:5px;width:98px;height:45px;">
+          <span>GALLERIES</span>
+        </a>
+        <a href="contact-us.html" id="nav_1_B5" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:456px;top:5px;width:98px;height:45px;">
+          <span>CONTACT&nbsp;US&nbsp;</span>
+        </a>
+        <a href="message.html" id="nav_1_B6" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:554px;top:5px;width:98px;height:45px;">
+          <span>LEAVE&nbsp;A&nbsp;MESSAGE</span>
+        </a>
+        <a href="book-now.html" id="nav_1_B7" class="OBJ-1 ActiveButton Down OBJ-2" style="display:block;position:absolute;left:652px;top:5px;width:98px;height:45px;">
+          <span>BOOK&nbsp;NOW</span>
+        </a>
+      </div>
+      <div style="position:absolute;left:0px;top:971px;width:960px;height:29px;overflow:hidden;">
+        <p class="Body P-1"><span class="C-1">A 2025 COPYRIGHT | ALL RIGHTS RESERVED.</span></p>
+        <p class="Body"><span class="C-2"><br></span></p>
+      </div>
+      <img src="wpimages/wpadcc205a_06.png" alt="" width="77" height="77" style="position:absolute;left:126px;top:67px;width:77px;height:77px;">
+      <form id="form_21" method="post" target="_self" class="OBJ-3" style="position:absolute;left:480px;top:270px;width:335px;height:459px;">
+        <div style="position:absolute;left:19px;top:19px;width:297px;height:22px;overflow:hidden;">
+          <p class="Body P-2"><span class="C-3">Book Your Stay at Tickel Hotel</span></p>
+        </div>
+        <div style="position:absolute;left:19px;top:60px;width:295px;height:19px;overflow:hidden;">
+          <p class="Body"><label for="CHECK-IN_DATE" class="C-4">CHECK-<wbr>IN DATE</label></p>
+        </div>
+        <input id="CHECK-IN_DATE" name="CHECK-IN DATE" class="OBJ-4" type="text" value="2025-04-01" style="position:absolute;left:19px;top:79px;width:295px;height:19px;">
+        <script type="text/javascript">
+          $(function() {
+          $( "#CHECK-IN_DATE" ).datepicker({ beforeShow: function(input, inst) { setDatepickerCss(input); } });
+          $( "#CHECK-IN_DATE" ).datepicker( "option", $.datepicker.regional[ "en" ] );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "prevText", "" );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "nextText", "" );
+          $( "#CHECK-IN_DATE" ).datepicker( "setDate", new Date() );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "altField", "#CHECK-IN_DATEISO8601" );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "altFormat", "yy-mm-dd" );
+          });
+        </script>
+        <input type="hidden" name="CHECK-IN_DATEISO8601" id="CHECK-IN_DATEISO8601">
+        <div style="position:absolute;left:19px;top:119px;width:295px;height:19px;overflow:hidden;">
+          <p class="Body"><label for="CHECK-IN_DATE" class="C-4">CHECK-<wbr>OUT DATE</label></p>
+        </div>
+        <input id="CHECK-IN_DATE" name="CHECK-IN DATE" class="OBJ-4" type="text" value="2025-04-01" style="position:absolute;left:19px;top:138px;width:295px;height:19px;">
+        <script type="text/javascript">
+          $(function() {
+          $( "#CHECK-IN_DATE" ).datepicker({ beforeShow: function(input, inst) { setDatepickerCss(input); } });
+          $( "#CHECK-IN_DATE" ).datepicker( "option", $.datepicker.regional[ "en" ] );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "prevText", "" );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "nextText", "" );
+          $( "#CHECK-IN_DATE" ).datepicker( "setDate", new Date() );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "altField", "#CHECK-IN_DATEISO8601" );
+          $( "#CHECK-IN_DATE" ).datepicker( "option", "altFormat", "yy-mm-dd" );
+          });
+        </script>
+        <input type="hidden" name="CHECK-IN_DATEISO8601" id="CHECK-IN_DATEISO8601">
+        <div style="position:absolute;left:19px;top:178px;width:295px;height:19px;overflow:hidden;">
+          <p class="Body"><label for="edit_3" class="C-4">NUMBER OF GUSTS *</label></p>
+        </div>
+        <input id="edit_3" name="edit_3" class="OBJ-4" maxlength="32" value="1 GUEST" autocomplete="on" placeholder="1 GUEST" style="position:absolute;left:19px;top:197px;width:295px;height:19px;">
+        <div style="position:absolute;left:19px;top:237px;width:295px;height:19px;overflow:hidden;">
+          <p class="Body"><label for="edit_4" class="C-4">ROOM TYPE</label></p>
+        </div>
+        <input id="edit_4" name="edit_4" class="OBJ-4" maxlength="32" value="STANDARD ROOM" style="position:absolute;left:19px;top:256px;width:295px;height:19px;">
+        <div style="position:absolute;left:19px;top:296px;width:295px;height:19px;overflow:hidden;">
+          <p class="Body"><label for="edit_5" class="C-4">FULL NAME</label></p>
+        </div>
+        <input id="edit_5" name="edit_5" class="OBJ-4" maxlength="32" value="Enter your name" style="position:absolute;left:19px;top:315px;width:295px;height:19px;">
+        <div style="position:absolute;left:19px;top:355px;width:295px;height:19px;overflow:hidden;">
+          <p class="Body"><label for="edit_6" class="C-4">EMAIL ADRESS</label></p>
+        </div>
+        <input id="edit_6" name="edit_6" class="OBJ-4" maxlength="32" value="enter your email" style="position:absolute;left:19px;top:374px;width:295px;height:19px;">
+        <input name="butn_1" class="OBJ-5" type="button" value="BOOK NOW" style="position:absolute;left:19px;top:414px;width:295px;height:22px;">
+      </form>
+      <div style="position:absolute;left:102px;top:740px;width:715px;height:231px;overflow:hidden;">
+        <p class="Body"><span class="C-5">Why Book With Us?</span></p>
+        <p class="Body"><span class="C-6">Best price guaranteed</span></p>
+        <p class="Body"><span class="C-6">Free cancellation up to 24 hours before arrival</span></p>
+        <p class="Body"><span class="C-6">Complimentary breakfast with every stay</span></p>
+        <p class="Body"><span class="C-6">24/7 guest support</span></p>
+        <p class="Body"><span class="C-6">Tickel Hotel Exterior</span></p>
+      </div>
+      <div style="position:absolute;left:51px;top:283px;width:356px;height:369px;overflow:hidden;">
+        <p class="Body"><span class="C-7">Ready for an unforgettable experience? Reserve your room now and let us take care of the rest.</span></p>
+      </div>
+      <img alt="" src="wpimages/wpa2289ef0_05_06.jpg" style="position:absolute;left:72px;top:481px;width:351px;height:234px;">
+    </div>
+  </body>
+</html>
